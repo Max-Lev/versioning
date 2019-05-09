@@ -1,0 +1,1 @@
+export const conf ={ version: '0.0.1', hash: '9ea085d4d2c3d5f1c960' }

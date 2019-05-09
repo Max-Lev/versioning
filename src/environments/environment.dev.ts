@@ -1,6 +1,6 @@
-console.log('env prod');
+console.log('env dev');
 
 export const environment = {
-  name:'production',
+  name:'dev',
   production: true
 };

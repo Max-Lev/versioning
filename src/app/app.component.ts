@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { conf } from '../../version/vars';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'versioning';
-}
+  constructor() {
+    console.log('conf: ',conf);
+  }
+};
